@@ -229,6 +229,10 @@ a {
   a:hover {
     color: var(--primary);
   }
+  button:hover {
+    color: var(--primary);
+    background-color: red;
+  }
 }
 .header {
   padding: 33px 0;
