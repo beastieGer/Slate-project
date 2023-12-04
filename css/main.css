@@ -226,20 +226,14 @@ a {
 }
 
 @media (any-hover: hover) {
-  a:hover {
-    color: var(--primary);
-  }
-  button:hover {
-    color: var(--primary);
-    background-color: red;
+  .btn:active {
+    color: yellow;
+    background-color: yellow;
   }
 }
 @media (any-hover: none) {
-  a:active {
-    color: var(--primary);
-  }
-  button:active {
-    color: var(--primary);
+  .btn:active {
+    color: red;
     background-color: red;
   }
 }
